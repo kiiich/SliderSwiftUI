@@ -11,6 +11,8 @@
 		01B3E1C6273ABCDD00DC6B22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3E1C5273ABCDD00DC6B22 /* ContentView.swift */; };
 		01B3E1C8273ABCE000DC6B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B3E1C7273ABCE000DC6B22 /* Assets.xcassets */; };
 		01B3E1CB273ABCE000DC6B22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B3E1CA273ABCE000DC6B22 /* Preview Assets.xcassets */; };
+		01B3E1D4273ABE8700DC6B22 /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3E1D3273ABE8700DC6B22 /* SliderUIKit.swift */; };
+		01B3E1D6273AD35C00DC6B22 /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3E1D5273AD35C00DC6B22 /* ScoreCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		01B3E1C5273ABCDD00DC6B22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01B3E1C7273ABCE000DC6B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B3E1CA273ABCE000DC6B22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01B3E1D3273ABE8700DC6B22 /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
+		01B3E1D5273AD35C00DC6B22 /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				01B3E1C3273ABCDD00DC6B22 /* SliderApp.swift */,
 				01B3E1C5273ABCDD00DC6B22 /* ContentView.swift */,
+				01B3E1D3273ABE8700DC6B22 /* SliderUIKit.swift */,
 				01B3E1C7273ABCE000DC6B22 /* Assets.xcassets */,
 				01B3E1C9273ABCE000DC6B22 /* Preview Content */,
+				01B3E1D5273AD35C00DC6B22 /* ScoreCalculator.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B3E1C6273ABCDD00DC6B22 /* ContentView.swift in Sources */,
+				01B3E1D4273ABE8700DC6B22 /* SliderUIKit.swift in Sources */,
+				01B3E1D6273AD35C00DC6B22 /* ScoreCalculator.swift in Sources */,
 				01B3E1C4273ABCDD00DC6B22 /* SliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
