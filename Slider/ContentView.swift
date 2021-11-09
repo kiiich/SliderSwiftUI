@@ -29,7 +29,8 @@ struct ContentView: View {
                 Alert(
                     title: Text("Your score is:"),
                     message: Text("\(score)"),
-                    dismissButton: .cancel(Text("OK")))
+                    dismissButton: .cancel(Text("OK"))
+                )
             }
             Button("Начать заново") {
                 targetValue = Int.random(in: 0...100)
